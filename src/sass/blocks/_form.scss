@@ -1,0 +1,30 @@
+.form {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 20px 10px;
+    max-width: 220px;
+    min-height: 200px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+    &__item {
+        margin-bottom: 10px;
+        border-radius: 5px;
+        flex: 0 0 auto;
+
+    }
+    &__msg {
+        margin-bottom: 10px;
+        flex: 1 0 auto;
+    }
+
+    &__submit {
+        /* position: absolute;
+        bottom: 20px;
+        width: initial; */
+        flex: 0 0 auto;
+    }
+
+}

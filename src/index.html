@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <h1>test</h1>
+
+    <section class="send-msg">
+        <div class="wrapper">
+            <form action="" class="form">
+                <input type="text" class="form__item" name="name" placeholder="write you name" required>
+                <input type="text" class="form__item" name="tel" placeholder="write you tel" required pattern=\d{10,13}>
+                <input type="text" class="form__item" name="email" placeholder="write you e-mail" required>
+                <textarea name="text" class="form__msg"></textarea>
+                <button class="form__submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
